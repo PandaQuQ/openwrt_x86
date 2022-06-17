@@ -14,5 +14,16 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git packages https://github.com/Lienol/openwrt-packages.git;21.02' >>feeds.conf.default
+echo 'src-git luci https://github.com/Lienol/openwrt-luci.git;21.02' >>feeds.conf.default
+echo 'src-git routing https://git.openwrt.org/feed/routing.git;openwrt-21.02' >>feeds.conf.default
+echo 'src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-21.02' >>feeds.conf.default
+#src-link custom /usr/src/openwrt/custom-feed
+echo 'src-git lienol https://github.com/Lienol/openwrt-package.git;main' >>feeds.conf.default
+echo 'src-git other https://github.com/Lienol/openwrt-package.git;other' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git nas https://github.com/linkease/nas-packages.git' >>feeds.conf.default
